@@ -6,6 +6,7 @@ jQuery SyncHeights plugin requires jQuery tested with (1.7.2).
 In this example the html elements with a class of "end-box" will be equal to each other in height.
 
 ```
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
 <div class="end-box">
 	<h1> Basic Title </h1>
 </div class="box">

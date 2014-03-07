@@ -2,8 +2,10 @@
 
     var methods = {
 
-
+        var self = this;
         init: function(options) {
+
+            self.options = options;
             var heightArray = [];
             $(this).each(function(index, Element) {
                 var boxHeight = $(Element).outerHeight();
@@ -14,6 +16,9 @@
             $(this).css('height', largestHeight);
         },
         update: function(options) {
+            if (!self.options && options) {
+                self.options = options;
+            }
             var heightArray = [];
             $(this).height({})
             $(this).each(function(index, Element) {

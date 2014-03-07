@@ -24,11 +24,20 @@ In this example the html elements with a class of "end-box" will be equal to eac
 	$(document).ready(function(){	
 		$('.end-box').syncHeights();		
 	});
-	$(window).resize(function(){
-		$('.end-box').syncHeights('update');
-	})
+
 ```
 
 
+<p>You'll notice that whatever class, div or html element you apply syncHeights() to will be measured against each other on page load and perform the correct manipulation to heights.</p>
 
-You'll notice that whatever class, div or html element you apply syncHeights() to will be measured against each other on page load and perform the correct manipulation to heights.
+<h1>Options</h1>
+
+<b> For window resizing </b>
+
+```javascript
+	$(window).resize(function(){
+		$('.end-box').syncHeights({
+			update : true
+		});
+	});	
+```

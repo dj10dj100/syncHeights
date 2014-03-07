@@ -7,6 +7,7 @@ In this example the html elements with a class of "end-box" will be equal to eac
 
 ```
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
+<script src="path/to/js/syncHeights.js" ></script>
 <div class="end-box">
 	<h1> Basic Title </h1>
 </div class="box">

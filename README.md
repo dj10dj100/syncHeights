@@ -31,7 +31,7 @@ Basic Example
 ```
 
 <p>In this example the html elements with a class of "end-box" will be equal to each other in height.</p>
-<p>You'll notice that whatever class, div or html element you apply `syncHeights()` to will be measured against each other on page load and perform the correct manipulation to heights.</p>
+<p>You'll notice that whatever class, div or html element you apply syncHeights() to will be measured against each other on page load and perform the correct manipulation to heights.</p>
 
 --------------------
 Options

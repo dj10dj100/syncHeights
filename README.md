@@ -1,7 +1,11 @@
 syncHeights
 ===========
 
-jQuery SyncHeights plugin requires jQuery tested with (1.7.2).
+jQuery SyncHeights V1.0
+This plugin takes a specific DOM element and samples all instances of that element on a page, measures the elements heights and updates all instances to have the same height. 
+Great for a design that has equal sized div elements, that need to have an auto height to allow for different sized content.
+
+*Requires jQuery, tested with 1.11.0 - should work with much earlier versions.
 
 --------------------
 Basic Example
@@ -22,6 +26,7 @@ Basic Example
 	<h1> Basic Title </h1>
 </div>
 ```
+<b> Basic usage </b>
 
 ```javascript
 	$(document).ready(function(){	

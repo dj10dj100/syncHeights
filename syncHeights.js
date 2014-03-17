@@ -3,18 +3,6 @@
     var methods = {
 
         var self = this;
-        init: function(options) {
-
-            self.options = options;
-            var heightArray = [];
-            $(this).each(function(index, Element) {
-                var boxHeight = $(Element).outerHeight();
-                heightArray.push(boxHeight);
-            });
-
-            var largestHeight = Math.max.apply(null, heightArray);
-            $(this).css('height', largestHeight);
-        },
         update: function(options) {
             if (!self.options && options) {
                 self.options = options;

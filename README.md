@@ -1,8 +1,8 @@
 syncHeights
 ===========
-[![npm](https://img.shields.io/npm/dm/synch-heights.svg)]()
-[![npm](https://img.shields.io/npm/dt/synch-heights.svg)]()
-[![npm](https://img.shields.io/npm/v/synch-heights.svg)]()
+[![npm](https://img.shields.io/npm/dm/sync-heights.svg)]()
+[![npm](https://img.shields.io/npm/dt/sync-heights.svg)]()
+[![npm](https://img.shields.io/npm/v/sync-heights.svg)]()
 # jQuery SyncHeights 
 This plugin takes a specific DOM element and samples all instances of that element on a page, measures the elements heights and updates all instances to have the same height. 
 Great for a design that has equal sized div elements, that need to have an auto height to allow for different sized content.

@@ -1,6 +1,6 @@
 {
   "name": "sync-heights",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This plugin takes a specific DOM element and samples all instances of that element on a page, measures the elements heights and updates all instances to have the same height. ",
   "main": "sync-heights.js",
   "scripts": {

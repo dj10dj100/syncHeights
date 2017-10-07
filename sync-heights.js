@@ -1,15 +1,14 @@
-(function($) {
+(function ($) {
 
     var methods = {
-
         var self = this;
-        update: function(options) {
+        update: function (options) {
             if (!self.options && options) {
                 self.options = options;
             }
             var heightArray = [];
             $(this).height({})
-            $(this).each(function(index, Element) {
+            $(this).each(function (index, Element) {
 
                 $(Element).height('auto');
                 var boxHeight = $(Element).outerHeight();
@@ -22,7 +21,7 @@
         }
     };
 
-    $.fn.syncHeights = function(methodOrOptions) {
+    $.fn.syncHeights = function (methodOrOptions) {
 
         if (methods[methodOrOptions]) {
             return methods[methodOrOptions].apply(this, Array.prototype.slice.call(arguments, 1));

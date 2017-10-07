@@ -6,14 +6,15 @@ This plugin takes a specific DOM element and samples all instances of that eleme
 Great for a design that has equal sized div elements, that need to have an auto height to allow for different sized content.
 
 *Requires jQuery, tested with 1.11.0 - should work with much earlier versions.
+** Can be solved using css flex nowadays, use this if you need to support older browsers.... **
 
 --------------------
-Basic Example
+Example
 --------------------
 
-```
+``` html
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
-<script src="path/to/js/syncHeights.js" ></script>
+
 <div class="end-box">
 	<h1> Basic Title </h1>
 </div class="box">
@@ -29,10 +30,9 @@ Basic Example
 <b> Basic usage </b>
 
 ```javascript
-	$(document).ready(function(){	
-		$('.end-box').syncHeights();		
-	});
-
+$(document).ready(function(){	
+    $('.end-box').syncHeights();		
+});
 ```
 
 <p>In this example the html elements with a class of "end-box" will be equal to each other in height.</p>
@@ -44,9 +44,9 @@ Options
 
 <b> For window resizing </b>
 ```javascript
-	$(window).resize(function(){
-		$('.end-box').syncHeights({
-			update : true
-		});
-	});	
+$(window).resize(function(){
+   $('.end-box').syncHeights({
+       update : true
+   });
+});	
 ```

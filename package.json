@@ -1,0 +1,29 @@
+{
+  "name": "sync-heights",
+  "version": "1.0.0",
+  "description": "This plugin takes a specific DOM element and samples all instances of that element on a page, measures the elements heights and updates all instances to have the same height. ",
+  "main": "sync-heights.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dj10dj100/syncHeights.git"
+  },
+  "keywords": [
+    "synch",
+    "heights",
+    "same",
+    "height",
+    "jquery",
+    "plugin",
+    "sync",
+    "elements"
+  ],
+  "author": "dj10dj100",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dj10dj100/syncHeights/issues"
+  },
+  "homepage": "https://github.com/dj10dj100/syncHeights#readme"
+}
